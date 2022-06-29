@@ -6,6 +6,7 @@
 
 .logomemphis{
     width: 64px;
+    transition: 0.8s;
 }
 header{
     height: 100px;
