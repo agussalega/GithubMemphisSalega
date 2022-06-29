@@ -4,6 +4,16 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
+.photo1{
+   
+   background-image: url(../images/1.jpg);
+    background-size: contain;
+    height: 500px;
+    width: 100%;
+    
+}
+
+
 header{
     height: 100px;
     background-color: black;
