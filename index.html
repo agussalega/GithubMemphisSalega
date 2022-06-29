@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>MEMPHIS-Tienda Online</title>
 </head>
 <body>
     <header>
+        <div data-aos="flip-left" class="logomemphis"><img src="./assets/images/logo.png" alt=""></div>
         <h2 class="logo">MEMPHIS</h2>
 
         <input type="checkbox" id="check">
@@ -17,7 +19,7 @@
         <label for="check" class="mostrar-menu">
             &#8801
         </label>
-
+        
         <nav class="menu">
             <a href="inicio">Inicio</a>
             <a href="e-shop">E-Shop</a>
@@ -90,5 +92,9 @@
         </aside>
         
     <footer> <h5>©2022|MEMPHIS|Todos los derechos de autor</h5></footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

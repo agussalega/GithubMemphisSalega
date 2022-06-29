@@ -4,6 +4,9 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
+.logomemphis{
+    width: 64px;
+}
 header{
     height: 100px;
     background-color: black;
